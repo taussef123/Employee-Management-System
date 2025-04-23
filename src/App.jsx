@@ -1,12 +1,15 @@
 
 import './App.css'
+import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
+//import Login from './components/Auth/Login'
 
 function App() {
   
 
   return (
     <>
-      <h1  className='text-3xl font-bold'>App</h1>
+     {/* <Login/> */}
+     <EmployeeDashboard/>
     </>
   )
 }
